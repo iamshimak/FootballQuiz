@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backup</title>
+</head>
+<body>
+
+</body>
+<script>
+    function switchQ () {
+        switch (counter){
+            case 0:
+                displayQandA(answers[0]);
+                //timer();
+                counter++;
+                break;
+            case 1:
+                checkAnswers();
+                displayQandA(answers[1]);
+                //timer();
+                counter++;
+                break;
+            case 2:
+                checkAnswers();
+                displayQandA(answers[2]);
+                //timer();
+                counter++;
+                break;
+            case 3:
+                checkAnswers();
+                displayQandA(answers[3]);
+                counter++;
+                break;
+            case 4:
+                checkAnswers();
+                displayQandA(answers[4]);
+                counter++;
+                break;
+            case 5:
+                checkAnswers();
+                displayQandA(answers[5]);
+                counter++;
+                break;
+            case 6:
+                checkAnswers();
+                displayQandA(answers[6]);
+                counter++;
+                break;
+            case 7:
+                checkAnswers();
+                displayQandA(answers[7]);
+                counter++;
+                break;
+            case 8:
+                checkAnswers();
+                displayQandA(answers[8]);
+                counter++;
+                break;
+            case 9:
+                checkAnswers();
+                displayQandA(answers[9]);
+                counter++;
+                break;
+            case 10:
+                checkAnswers();
+                quizFinished = true;
+                showMarks();
+                counter++;
+                break;
+        }
+    }
+</script>
+</html>
